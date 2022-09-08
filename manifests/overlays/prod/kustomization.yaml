@@ -7,10 +7,10 @@ configurations:
   - .transformers.yaml
 generators:
   - .ksops.yaml
-namespace: "{{prod-namespace}}"
+namespace: "thoth-cnbi-bot-prod"
 patchesStrategicMerge:
   - route.yaml
 images:
   - name: controller
-    newName: "{{image}}"
+    newName: "cnbi-bot"
     newTag: v1.0.0

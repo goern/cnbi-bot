@@ -1,8 +1,8 @@
 {
-  "name": "{{name}}",
+  "name": "cnbi-bot",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://github.com/{{org}}",
+  "homepage": "https://github.com/goern",
   "scripts": {
     "build": "tsc",
     "start": "node lib/index.js",
