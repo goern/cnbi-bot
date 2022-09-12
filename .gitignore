@@ -4,3 +4,5 @@ npm-debug.log
 .env
 coverage
 lib
+cnbi-bot.2022-09-08.private-key.pem
+*.enc.yaml.in

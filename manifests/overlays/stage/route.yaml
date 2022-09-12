@@ -6,4 +6,4 @@ metadata:
   annotations:
     kubernetes.io/tls-acme: "true"
 spec:
-  host: stage.host.example.com
+  host: cnbi-bot-stage.thoth-station.ninja 
